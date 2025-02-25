@@ -1,0 +1,8 @@
+.hero-title {
+    color: rgba(5, 0, 56, 1);
+    font-size: 48px;
+    font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+}

@@ -1,0 +1,14 @@
+dir list
+
+/common/common.css body value 바디 값
+/common/font.css
+/common/reset.css
+/common/ui.css
+/common/layout.css common layout 공통되는 화면 -> 헤더 푸터 공통되는 화면 템플릿
+/common/main.css 나머지 전부 섹션 나눠서
+
+
+
+main.html
+layout.css
+

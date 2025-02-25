@@ -1,0 +1,45 @@
+:root {
+    --font-int: "Inter", sans-serif;
+    --font-app: "AppleSDGothicNeoR00", sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --font-size-11: 11px;
+    --font-size-14: 14px;
+    --font-size-15: 15px;
+    --font-size-16: 16px;
+    --font-size-17: 17px;
+    --font-size-18: 18px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-48: 48px;
+}
+
+/* Inter Regular 16px */
+.int-reg-16 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-16);
+}
+
+/* Inter Bold 48px */
+.int-bold-48 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-48);
+}
+
+/* Apple Regular 14px */
+.app-reg-14 {
+    font-family: var(--font-app);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-14);
+}
+
+/* Apple Regular 18px */
+.app-reg-18 {
+    font-family: var(--font-app);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-18);
+}
