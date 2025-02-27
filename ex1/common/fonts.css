@@ -102,3 +102,9 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-18);
 }
+
+.int-reg-48 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-48);
+}

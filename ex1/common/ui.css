@@ -68,3 +68,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+.note-cta-arrow {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

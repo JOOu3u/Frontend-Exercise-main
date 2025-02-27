@@ -155,3 +155,66 @@
     z-index: 10;
     margin: 50px;
 }
+
+/* Section 3 */
+.note-section {
+    flex-direction: column;
+    display: inline-flex;
+    padding: 0 100px;
+    align-items: start;
+    margin-top: 57px;
+}
+
+.note-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 230px;
+}
+
+.note-image {
+    width: 454px;
+    height: 472px;
+}
+
+.note-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+}
+
+.note-heading {
+    color: rgb(5, 0, 56);
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.note-description {
+    color: #050038;
+    line-height: 24px;
+    margin-top: 16px;
+    align-self: stretch;
+}
+
+.note-cta-link {
+    align-self: start;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 1;
+    justify-content: center;
+    left: 0;
+    text-decoration: none;
+    margin-top: 43px;
+}
+
+.note-cta-text {
+    align-self: stretch;
+    margin: auto 0;
+    padding: 5px 0;
+    color: rgb(5, 0, 56);
+    width: 105px;
+}

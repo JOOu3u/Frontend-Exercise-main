@@ -147,9 +147,8 @@
 
 /* Main Visual */
 .main-container {
-    background: linear-gradient(180deg, #f4f0f1 0%, #ffffff 100%);
-
     padding: 80px 65px;
+    background: linear-gradient(180deg, #f4f0f1 0%, #ffffff 100%);
 }
 
 .main-visual {
