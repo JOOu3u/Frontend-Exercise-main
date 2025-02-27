@@ -16,10 +16,10 @@
 
         <link rel="stylesheet" href="../ex1/common/common.css" />
         <link rel="stylesheet" href="../ex1/common/fonts.css" />
-        <link rel="stylesheet" href="../ex1/common/common/ui.css" />
+        <link rel="stylesheet" href="../ex1/common/ui.css" />
         <link rel="stylesheet" href="../ex1/common/layout.css" />
-        <link rel="stylesheet" href="../ex1/common/common/main.css" />
-        <link rel="stylesheet" href="../ex1/common/common/layout.css" />
+        <link rel="stylesheet" href="../ex1/common/main.css" />
+        <link rel="stylesheet" href="../ex1/common/layout.css" />
     </head>
     <body>
         <!-- Header -->
@@ -57,13 +57,13 @@
                             <button class="action-button int-reg-16">Contact Sales</button>
                             <button class="action-button int-reg-16">Login</button>
                         </div>
-                        <button class="signup-button noto-reg-18">Sign up free</button>
+                        <button class="header-signup-button noto-reg-18">Sign up free</button>
                     </div>
                 </div>
             </div>
         </header>
 
-        <main>
+        <main class="main-container">
             <!-- Main Visual -->
             <section class="main-visual">
                 <article class="content-column">
@@ -76,38 +76,51 @@
                     <form class="signup-form">
                         <input
                             type="email"
-                            class="email-input"
+                            class="email-input int-reg-18"
                             placeholder="Enter your work email"
                             aria-label="Work email"
                         />
                     </form>
-
-                    <button class="signup-button" aria-label="Sign up for free">Sign up free</button>
-
-                    <p class="collaboration-text">Collaborate with your team within minutes</p>
+                    <button class="signup-button noto-reg-20" aria-label="Sign up for free">Sign free</button>
+                    <p class="collaboration-text noto-reg-14">Collaborate with your team within minutes</p>
 
                     <section class="reviews-section">
                         <div class="reviews-header">
-                            <img src="alt" ="Rating stars" class="rating-stars" />
-                            <p class="reviews-count">Based on 5149+ reviews:</p>
+                            <img src="/ex1/assets/VisualMain/stars.svg" alt="Rating stars" class="rating-stars" />
+                            <p class="reviews-count noto-reg-11">Based on 5149+ reviews:</p>
                         </div>
 
                         <div class="review-logos">
-                            <img src="alt" ="Review platform logo" class="review-logo" />
-                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
-                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
-                            <img src="alt" ="Review platform logo" class="review-logo" />
-                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
+                            <img
+                                src="/ex1/assets/VisualMain/Frame.svg"
+                                alt="Review platform logo"
+                                class="review-logo"
+                            />
+                            <img
+                                src="assets/VisualMain/Frame2.svg"
+                                alt="Review platform logo"
+                                class="review-logo-wide"
+                            />
+                            <img
+                                src="assets/VisualMain/Frame3.svg"
+                                alt="Review platform logo"
+                                class="review-logo-wide"
+                            />
+                            <img src="assets/VisualMain/Frame.svg" alt="Review platform logo" class="review-logo" />
+                            <img
+                                src="assets/VisualMain/Frame4.svg"
+                                alt="Review platform logo"
+                                class="review-logo-wide"
+                            />
                         </div>
                     </section>
                 </article>
-
-                <article class="image-column">
+                <div class="image-column">
                     <img src="/ex1/assets/VisualMain/mainImage.png" alt="Platform preview" class="hero-image" />
-                </article>
+                </div>
             </section>
 
-            <section>
+            <!-- <section>
                 <h1>Section 2</h1>
             </section>
             <section>
@@ -130,12 +143,12 @@
             </section>
             <section>
                 <h1>Section 9</h1>
-            </section>
+            </section> -->
         </main>
 
         <!-- Footer -->
         <footer>
-            <h1>this is footer</h1>
+            <!-- <h1>this is footer</h1> -->
         </footer>
     </body>
 </html>

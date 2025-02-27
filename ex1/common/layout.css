@@ -1,13 +1,10 @@
 /* Header */
 .main-header {
     display: flex;
-    padding-left: 65px;
-    padding-right: 50px;
-    padding-bottom: 1px;
+    padding: 0px 65px 1px 45px;
     align-items: flex-start;
-    font-weight: 400;
-    justify-content: flex-start;
     opacity: 80%;
+    background: white;
 }
 
 .header-container {
@@ -136,7 +133,7 @@
     margin: auto 0;
 }
 
-.signup-button {
+.header-signup-button {
     border: none;
     border-radius: 8px;
     background-color: #ad8bda;
@@ -149,38 +146,38 @@
 }
 
 /* Main Visual */
+.main-container {
+    background: linear-gradient(180deg, #f4f0f1 0%, #ffffff 100%);
+
+    padding: 80px 65px;
+}
+
 .main-visual {
     display: flex;
     align-items: center;
     gap: 40px 50px;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 85px 65px 0px 65px;
 }
 
 .content-column {
     display: flex;
     flex-direction: column;
-    width: 440px;
     height: 540px;
+    flex-shrink: 0;
+    width: 440px;
 }
 
 .image-column {
-    border-radius: 8px;
+    height: 540px;
+    flex-shrink: 0;
     align-self: stretch;
-    min-width: 240px;
-    width: 732px;
-    min-height: 540px;
-    margin-top: auto;
-    margin-bottom: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
+    aspect-ratio: 41/27;
 }
 
 .hero-image {
     width: 100%;
-    aspect-ratio: 1.52;
+    height: 100%;
     object-fit: contain;
-    object-position: center;
     border-radius: 8px;
 }

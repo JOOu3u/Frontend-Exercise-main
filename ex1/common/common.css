@@ -6,8 +6,6 @@
 
 body {
     font-family: sans-serif;
-    line-height: 1.6;
-    background-color: #fff;
-    color: #333;
     width: 1440px;
+    background: #fff;
 }
