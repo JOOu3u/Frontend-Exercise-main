@@ -3,446 +3,90 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="../ex1/styles.css" />
+        <title>Exercise 1</title>
+        <link rel="stylesheet" href="styles.css" />
 
-        <link rel="stylesheet" href="../ex1/common/common.css" />
-        <link rel="stylesheet" href="../ex1/common/common/font.css" />
-        <link rel="stylesheet" href="../ex1/common/common/ui.css" />
-        <link rel="stylesheet" href="../ex1/common/common/layout.css" />
-        <link rel="stylesheet" href="../ex1/common/common/main.css" />
+        <link rel="stylesheet" href="common/common.css" />
+        <link rel="stylesheet" href="common/common/fonts.css" />
+        <link rel="stylesheet" href="common/common/ui.css" />
+        <link rel="stylesheet" href="common/layout.css" />
+        <link rel="stylesheet" href="common/common/main.css" />
     </head>
     <body>
         <!-- Header -->
         <header class="main-header">
-            <div class="header-content">
-                <div class="logo-nav-wrapper">
-                    <img src="../ex1/assets/headerLogo.svg" class="company-logo" />
-                    <nav class="main-navigation">
-                        <button class="nav-item">
-                            Product
-                            <img src="../ex1/assets/headerArrow.svg" class="dropdown-icon" />
-                        </button>
-                        <button class="nav-item">
-                            Solutions
-                            <img src="../ex1/assets/headerArrow.svg" class="dropdown-icon" />
-                        </button>
-                        <button class="nav-item resources-link">
-                            Resources
-                            <img src="../ex1/assets/headerArrow.svg" class="dropdown-icon" />
-                        </button>
-                        <button class="nav-item enterprise-link">Enterprise</button>
-                        <button class="nav-item pricing-link">Pricing</button>
+            <div class="header-container">
+                <div class="header-left int-reg-16">
+                    <img src="assets/Header/logo.svg" alt="Logo" class="logo" />
+                    <nav class="main-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <button class="nav-button">Product</button>
+                                <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-button">Solutions</button>
+                                <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-button">Resources</button>
+                                <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-button">Enterprise</button>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
-                <div class="header-actions">
-                    <button class="language-selector">
-                        <img src="../ex1/assets/headerGlobe.svg" alt="Language" class="language-icon" />
-                        <span>en</span>
-                    </button>
-                    <button class="contact-sales-btn">Contact Sales</button>
-                    <button class="login-btn">Login</button>
-                    <button class="signup-btn">Sign up free →</button>
+                <div class="header-right">
+                    <div class="actions-container">
+                        <div class="actions-group int-reg-16">
+                            <div class="language-selector app-reg-14">
+                                <img src="assets/Header/glob.svg" alt="Language" class="language-icon" />
+                                <span>en</span>
+                            </div>
+                            <button class="action-button">Contact Sales</button>
+                            <button class="action-button">Login</button>
+                        </div>
+                        <button class="signup-button app-reg-18">Sign up free</button>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <main class="main-section">
-            <section class="hero-content">
-                <div class="hero-text-container">
-                    <h1 class="hero-title">Take ideas from better to best</h1>
-                    <p class="hero-description">
-                        Miro is your team's visual platform to connect, collaborate, and create — together.
-                    </p>
-                    <form class="signup-form">
-                        <input
-                            type="email"
-                            class="email-input"
-                            placeholder="Enter your work email"
-                            aria-label="Email input"
-                        />
-                        <button type="submit" class="signup-button">Sign up free →</button>
-                    </form>
-                    <p class="collaboration-text">Collaborate with your team within minutes</p>
-                    <div class="reviews-container">
-                        <div class="star-ratings">
-                            <div class="rating-stars">
-                                <img src="../ex1/assets/Section 1/heroFullStar.svg" class="star-icon" />
-                                <img src="../ex1/assets/Section 1/heroFullStar.svg" class="star-icon" />
-                                <img src="../ex1/assets/Section 1/heroFullStar.svg" class="star-icon" />
-                                <img src="../ex1/assets/Section 1/heroFullStar.svg" class="star-icon" />
-                                <img src="../ex1/assets/Section 1/heroHalfStar.svg" class="star-icon" />
-                            </div>
-                            <p class="review-count">Based on 5149+ reviews:</p>
-                        </div>
-                        <div class="review-platforms">
-                            <img
-                                src="../ex1/assets/Section 1/heroRepLogo.svg"
-                                alt="Review platform"
-                                class="platform-logo g2"
-                            />
-                            <img
-                                src="../ex1/assets/Section 1/heroGetAppLogo.svg"
-                                alt="Review platform"
-                                class="platform-logo capterra"
-                            />
-                            <img
-                                src="../ex1/assets/Section 1/heroLetterLogo.svg"
-                                alt="Review platform"
-                                class="platform-logo trustpilot"
-                            />
-                        </div>
-                    </div>
-                </div>
+        <main>
+            <section>
+                <h1>Section 1</h1>
             </section>
-            <section class="hero-image">
-                <img src="../ex1/assets/Section 1/headerimage-without-text.png.png" class="main-image" />
+            <section>
+                <h1>Section 2</h1>
             </section>
-
-            <!-- Section 2 -->
-            <section class="testimonial-section">
-                <div class="testimonial-container">
-                    <h2 class="testimonial-heading">Trusted by 45M+ users</h2>
-                    <div class="testimonial-logobox">
-                        <img src="../ex1/assets/Section2/Walmart.svg" class="testimonial-logos" />
-                        <img src="../ex1/assets/Section2/cisco.svg" class="testimonial-logos" />
-                        <img src="../ex1/assets/Section2/Volvo.svg" class="testimonial-logos" />
-                        <img src="../ex1/assets/Section2/deloitte.svg" class="testimonial-logos" />
-                        <img src="../ex1/assets/Section2/okta.svg" class="testimonial-logos" />
-                    </div>
-                </div>
+            <section>
+                <h1>Section 3</h1>
             </section>
-
-            <!-- Section 3 -->
-            <section class="collaborate-section">
-                <h2 class="collaborate-heading">
-                    <br />
-                    Collaborate without
-                    <br />
-                    constraints
-                </h2>
-                <div class="features-container">
-                    <article class="feature-card">
-                        <h3 class="feature-title">Free forever</h3>
-                        <p class="feature-description">
-                            Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates.
-                            Signing up with your work email lets you bring in your team faster. See our
-                            <a href="#" class="feature-link">pricing plans</a>
-                            for more features.
-                        </p>
-                    </article>
-                    <article class="feature-card">
-                        <h3 class="feature-title">Easy integrations</h3>
-                        <p class="feature-description">
-                            Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and
-                            Jira, so your workflow is seamless. View the full list in our
-                            <a href="#" class="feature-link">Marketplace</a>
-                            .
-                        </p>
-                    </article>
-                    <article class="feature-card">
-                        <h3 class="feature-title">Security first</h3>
-                        <p class="feature-description">
-                            We treat your data like you would — with the utmost care. We follow industry-leading
-                            security standards and give you tools to protect intellectual property. Learn more
-                            <br />
-                            at our
-                            <a href="#" class="feature-link">Trust Center</a>
-                            .
-                        </p>
-                    </article>
-                </div>
+            <section>
+                <h1>Section 4</h1>
             </section>
-
-            <!-- Section 4 -->
-            <section class="work-section">
-                <article class="content-wrapper">
-                    <div>
-                        <img
-                            src="../ex1/assets/Section4/hybridwork.png.png"
-                            alt="Work together illustration"
-                            class="feature-image"
-                        />
-                    </div>
-
-                    <div class="text-content">
-                        <h2 class="heading">Work together, wherever you work</h2>
-                        <p class="description">
-                            In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate,
-                            and co-create in one space no matter where you are.
-                        </p>
-                        <a href="#" class="learn-more-link">
-                            <span class="link-text">Learn more</span>
-                            <span class="arrow">→</span>
-                        </a>
-                    </div>
-                </article>
+            <section>
+                <h1>Section 5</h1>
             </section>
-
-            <!-- Section 5 -->
-            <div class="integration-container">
-                <!-- Placeholder for the Image -->
-                <div class="integration-image"></div>
-
-                <!-- Text Content -->
-                <div class="integration-text">
-                    <h2 class="integration-title">Connect your tools, close your tabs</h2>
-                    <p class="integration-subtitle">
-                        Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro
-                        has 100+ integrations with tools you already use and love.
-                    </p>
-                    <p class="learn-more">Learn more</p>
-                </div>
-            </div>
-
-            <!-- Section 6 -->
-
-            <div class="ways-we-work-container">
-                <div class="image-placeholder"></div>
-
-                <div class="content-wrapper">
-                    <h2 class="section-title">The Ways We Work</h2>
-                    <p class="section-description">How has our relationship with work changed?</p>
-                    <button class="cta-button">View the report →</button>
-                </div>
-            </div>
-
-            <!-- Section 6 -->
-
-            <div class="team-section">
-                <h2 class="section-title">Built for all kinds of teams</h2>
-
-                <div class="team-buttons">
-                    <div class="team-button">UX & Design</div>
-                    <div class="team-button">Marketing</div>
-                    <div class="team-button">Product Manager</div>
-                    <div class="team-button">Engineering</div>
-                    <div class="team-button">Consultants</div>
-                    <div class="team-button">Agile Coaches</div>
-                    <div class="team-button">Sales</div>
-                </div>
-
-                <div class="content-container">
-                    <div class="left-column">
-                        <li class="checklist-item">Build low-fi wireframes</li>
-                        <li class="checklist-item">Involve stakeholders in the design process</li>
-                        <li class="checklist-item">Run engaging design workshops</li>
-                        <li class="learn-more">Learn more →</li>
-                        <div class="integration-box">
-                            <div class="integration-icon">Icon 1</div>
-                            <div class="integration-icon">Icon 2</div>
-                            <div class="integration-icon">Icon 3</div>
-                            <div class="integration-icon">Icon 4</div>
-                        </div>
-                    </div>
-
-                    <div class="right-column">
-                        <div class="image-box"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Section 7 -->
-
-            <div class="trust-container">
-                <div class="trust-header">
-                    <div class="trust-title">Why companies large and small trust Miro</div>
-                    <div class="contact-link">Contact Sales to request a demo</div>
-                </div>
-
-                <div class="grid-container">
-                    <div class="grid-box">ISO</div>
-                    <div class="grid-box">#1</div>
-                    <div class="grid-box">99%</div>
-                    <div class="grid-box">1,000+</div>
-                    <div class="grid-box">45M+</div>
-                    <div class="grid-box">100+</div>
-                </div>
-            </div>
-            <!-- Section 8 -->
-            <div class="testimonials-container">
-                <div class="testimonials-title">Loved by the world's best teams</div>
-
-                <a href="#" class="cta-button">See all customer stories →</a>
-
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">vmware</div>
-                        <div class="testimonial-content">
-                            "When the pandemic hit, those of us who thrive on in-person collaboration were worried that
-                            our creativity and productivity would suffer. Miro was the perfect tool..."
-                        </div>
-                        <div class="testimonial-footer">
-                            <div class="avatar-placeholder"></div>
-                            <div class="name-title">
-                                <div>Roxanne Mustafa</div>
-                                <div>Design Team Lead at VMware</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">DocuSign</div>
-                        <div class="testimonial-content">
-                            "Miro helps solve one of the major gaps in product design: how to manage tasks across
-                            product designers whose projects are in different tools."
-                        </div>
-                        <div class="testimonial-footer">
-                            <div class="avatar-placeholder"></div>
-                            <div class="name-title">
-                                <div>Jane Ashley</div>
-                                <div>Head of Design at DocuSign</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">frog</div>
-                        <div class="testimonial-content">
-                            "As we used Miro, we moved from skepticism to belief to innovation, and now we have a tool
-                            that's at the core of what we do..."
-                        </div>
-                        <div class="testimonial-footer">
-                            <div class="avatar-placeholder"></div>
-                            <div class="name-title">
-                                <div>Laura Baird</div>
-                                <div>Associate Design Director at Frog</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 10 -->
-            <section class="cta-container">
-                <div class="cta-inner">
-                    <div class="cta-content">
-                        <h1 class="cta-heading">Join 45M+ users today</h1>
-                        <p class="cta-subheading">
-                            Start for free — upgrade anytime.
-                            <br />
-                        </p>
-                        <p class="cta-org-text">Joining as an organization? Contact Sales</p>
-                        <a href="#" class="cta-button">
-                            <span>Sign up free</span>
-                            <span class="button-arrow">→</span>
-                        </a>
-                    </div>
-                </div>
+            <section>
+                <h1>Section 6</h1>
+            </section>
+            <section>
+                <h1>Section 7</h1>
+            </section>
+            <section>
+                <h1>Section 8</h1>
+            </section>
+            <section>
+                <h1>Section 9</h1>
             </section>
         </main>
 
         <!-- Footer -->
-        <footer class="main-footer">
-            <div class="footer-container">
-                <nav class="footer-navigation">
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <h2 class="nav-title">Product</h2>
-                            <div class="nav-content">
-                                <ul class="sub-nav-list">
-                                    <li>Online whiteboard</li>
-                                    <li class="sub-nav-item">Apps & Integrations</li>
-                                </ul>
-                                <div class="nav-link-wrapper">
-                                    <a href="#" class="underline-link">View demo</a>
-                                    <span class="arrow">→</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="nav-item solutions-section">
-                            <h2 class="nav-title">Solutions</h2>
-                            <ul class="sub-nav-list">
-                                <li>Meetings and Workshops</li>
-                                <li class="sub-nav-item">Brainstorming & Ideation</li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item solutions-section">
-                            <h2 class="nav-title">Solutions</h2>
-                            <ul class="sub-nav-list">
-                                <li>Meetings and Workshops</li>
-                                <li class="sub-nav-item">Brainstorming & Ideation</li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item solutions-section">
-                            <h2 class="nav-title">Solutions</h2>
-                            <ul class="sub-nav-list">
-                                <li>Meetings and Workshops</li>
-                                <li class="sub-nav-item">Brainstorming & Ideation</li>
-                            </ul>
-                        </li>
-                        <li class="nav-item solutions-section">
-                            <h2 class="nav-title">Solutions</h2>
-                            <ul class="sub-nav-list">
-                                <li>Meetings and Workshops</li>
-                                <li class="sub-nav-item">Brainstorming & Ideation</li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item pricing-section">
-                            <h2 class="nav-title">Plans and Pricing</h2>
-                            <div class="nav-content">
-                                <ul class="sub-nav-list">
-                                    <li>Consultants</li>
-                                    <li class="sub-nav-item">NPOs</li>
-                                </ul>
-                                <div class="nav-link-wrapper">
-                                    <a href="#" class="underline-link">Contact sales</a>
-                                    <span class="arrow">→</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-
-                <div class="footer-bottom">
-                    <div class="footer-bottom-content">
-                        <div class="footer-info">
-                            <ul class="social-links">
-                                <li>
-                                    <img src="../ex1/assets/Footer/fa.svg" class="social-icon" />
-                                </li>
-                                <li>
-                                    <img src="../ex1/assets/Footer/in.svg" class="social-icon" />
-                                </li>
-                                <li>
-                                    <img src="../ex1/assets/Footer/ins.svg" class="social-icon" />
-                                </li>
-                                <li>
-                                    <img src="../ex1/assets/Footer/tw.svg" class="social-icon" />
-                                </li>
-                                <li>
-                                    <img src="../ex1/assets/Footer/you.svg" class="social-icon" />
-                                </li>
-                            </ul>
-
-                            <div class="language-selector">
-                                <img src="../ex1/assets/headerGlobe.svg" class="language-icon" />
-                                <span>en</span>
-                            </div>
-
-                            <div class="copyright">
-                                <span>© 2022</span>
-                                <span>Miro</span>
-                            </div>
-
-                            <nav class="legal-links">
-                                <a href="#" class="legal-link">Terms of Service</a>
-                                <a href="#" class="legal-link">Privacy Policy</a>
-                                <a href="#" class="legal-link">Manage Cookies</a>
-                            </nav>
-                        </div>
-
-                        <div class="certification-badges">
-                            <img src="../ex1/assets/Footer/apple.png" alt="Certification badge" class="cert-badge" />
-                            <img src="../ex1/assets/Footer/google.png" alt="Certification badge" class="cert-badge" />
-                            <img src="../ex1/assets/Footer/logo.png" alt="Certification badge" class="cert-badge" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <footer>
+            <h1>this is footer</h1>
         </footer>
     </body>
 </html>
