@@ -1,45 +1,104 @@
 :root {
+    /* Font families */
     --font-int: "Inter", sans-serif;
-    --font-app: "AppleSDGothicNeoR00", sans-serif;
+    --font-noto: "Noto Sans", sans-serif;
 
+    /* Font weights */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
 
+    /* Font sizes */
     --font-size-11: 11px;
     --font-size-14: 14px;
     --font-size-15: 15px;
     --font-size-16: 16px;
     --font-size-17: 17px;
     --font-size-18: 18px;
-    --font-size-22: 22px;
+    --font-size-20: 20px;
     --font-size-24: 24px;
+    --font-size-28: 28px;
     --font-size-48: 48px;
 }
 
-/* Inter Regular 16px */
-.int-reg-16 {
-    font-family: var(--font-int);
+/* Noto Sans ExtraBold */
+.noto-extrabold-20 {
+    font-family: var(--font-noto);
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-20);
+}
+
+/* Noto Sans Regular */
+.noto-reg-11 {
+    font-family: var(--font-noto);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-11);
+}
+
+.noto-reg-14 {
+    font-family: var(--font-noto);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-14);
+}
+
+.noto-reg-16 {
+    font-family: var(--font-noto);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-16);
 }
 
-/* Inter Bold 48px */
+.noto-reg-18 {
+    font-family: var(--font-noto);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-18);
+}
+
+/* Inter Bold */
+.int-bold-17 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-17);
+}
+
+.int-bold-18 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-18);
+}
+
+.int-bold-24 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-24);
+}
+
+.int-bold-28 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-28);
+}
+
 .int-bold-48 {
     font-family: var(--font-int);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-48);
 }
 
-/* Apple Regular 14px */
-.app-reg-14 {
-    font-family: var(--font-app);
+/* Inter Regular */
+.int-reg-15 {
+    font-family: var(--font-int);
     font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-14);
+    font-size: var(--font-size-15);
 }
 
-/* Apple Regular 18px */
-.app-reg-18 {
-    font-family: var(--font-app);
+.int-reg-16 {
+    font-family: var(--font-int);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-16);
+}
+
+.int-reg-18 {
+    font-family: var(--font-int);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-18);
 }

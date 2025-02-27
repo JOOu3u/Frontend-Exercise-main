@@ -4,13 +4,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Exercise 1</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="styles.css" />
 
-        <link rel="stylesheet" href="common/common.css" />
-        <link rel="stylesheet" href="common/common/fonts.css" />
-        <link rel="stylesheet" href="common/common/ui.css" />
-        <link rel="stylesheet" href="common/layout.css" />
-        <link rel="stylesheet" href="common/common/main.css" />
+        <link rel="stylesheet" href="../ex1/common/common.css" />
+        <link rel="stylesheet" href="../ex1/common/fonts.css" />
+        <link rel="stylesheet" href="../ex1/common/common/ui.css" />
+        <link rel="stylesheet" href="../ex1/common/layout.css" />
+        <link rel="stylesheet" href="../ex1/common/common/main.css" />
+        <link rel="stylesheet" href="../ex1/common/common/layout.css" />
     </head>
     <body>
         <!-- Header -->
@@ -21,18 +30,18 @@
                     <nav class="main-nav">
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <button class="nav-button">Product</button>
+                                <button class="nav-button nato-reg-16">Product</button>
                                 <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item nato-reg-16">
                                 <button class="nav-button">Solutions</button>
                                 <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item nato-reg-16">
                                 <button class="nav-button">Resources</button>
                                 <img src="assets/Header/arrow_down.svg" alt="Dropdown" class="dropdown-icon" />
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item nato-reg-16">
                                 <button class="nav-button">Enterprise</button>
                             </li>
                         </ul>
@@ -41,23 +50,63 @@
                 <div class="header-right">
                     <div class="actions-container">
                         <div class="actions-group int-reg-16">
-                            <div class="language-selector app-reg-14">
+                            <div class="language-selector noto-reg-16">
                                 <img src="assets/Header/glob.svg" alt="Language" class="language-icon" />
                                 <span>en</span>
                             </div>
-                            <button class="action-button">Contact Sales</button>
-                            <button class="action-button">Login</button>
+                            <button class="action-button int-reg-16">Contact Sales</button>
+                            <button class="action-button int-reg-16">Login</button>
                         </div>
-                        <button class="signup-button app-reg-18">Sign up free</button>
+                        <button class="signup-button noto-reg-18">Sign up free</button>
                     </div>
                 </div>
             </div>
         </header>
 
         <main>
-            <section>
-                <h1>Section 1</h1>
+            <!-- Main Visual -->
+            <section class="main-visual">
+                <article class="content-column">
+                    <h1 class="hero-title int-bold-48">Take ideas from better to best</h1>
+
+                    <p class="hero-description noto-reg-18">
+                        Miro is your team's visual platform to connect, collaborate, and create — together.
+                    </p>
+
+                    <form class="signup-form">
+                        <input
+                            type="email"
+                            class="email-input"
+                            placeholder="Enter your work email"
+                            aria-label="Work email"
+                        />
+                    </form>
+
+                    <button class="signup-button" aria-label="Sign up for free">Sign up free</button>
+
+                    <p class="collaboration-text">Collaborate with your team within minutes</p>
+
+                    <section class="reviews-section">
+                        <div class="reviews-header">
+                            <img src="alt" ="Rating stars" class="rating-stars" />
+                            <p class="reviews-count">Based on 5149+ reviews:</p>
+                        </div>
+
+                        <div class="review-logos">
+                            <img src="alt" ="Review platform logo" class="review-logo" />
+                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
+                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
+                            <img src="alt" ="Review platform logo" class="review-logo" />
+                            <img src="alt" ="Review platform logo" class="review-logo-wide" />
+                        </div>
+                    </section>
+                </article>
+
+                <article class="image-column">
+                    <img src="/ex1/assets/VisualMain/mainImage.png" alt="Platform preview" class="hero-image" />
+                </article>
             </section>
+
             <section>
                 <h1>Section 2</h1>
             </section>

@@ -1,0 +1,121 @@
+/* Main Visual */
+.hero-title {
+    color: #050038;
+    line-height: 56px;
+    letter-spacing: -1px;
+    align-self: start;
+    align-items: center;
+    resize: auto;
+}
+
+.hero-description {
+    color: #050038;
+    line-height: 24px;
+    margin: 16px 0px 12px 32px;
+    width: 430px;
+}
+
+.email-input {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(155, 153, 175, 1);
+    width: 100%;
+    padding: 13px 25px;
+    font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgba(95, 92, 128, 1);
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.email-input::placeholder {
+    color: rgba(95, 92, 128, 1);
+}
+
+.signup-button {
+    width: 121px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90deg, #d5acc1 0%, #665cd6 60%, #665cd6 100%);
+    margin-top: 13px;
+    min-height: 48px;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+    border: none;
+    cursor: pointer;
+}
+
+.collaboration-text {
+    color: #050038;
+    font-size: 14px;
+    font-family: Noto Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    align-self: flex-end;
+    margin-top: 7px;
+}
+
+.reviews-section {
+    border-radius: 8px;
+    background-color: rgba(245, 245, 247, 1);
+    display: flex;
+    margin-top: 70px;
+    min-height: 126px;
+    width: 100%;
+    padding: 17px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Noto Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgba(5, 0, 56, 1);
+    font-weight: 400;
+    line-height: 1;
+    justify-content: center;
+}
+
+.rating-stars {
+    aspect-ratio: 6.99;
+    object-fit: contain;
+    object-position: center;
+    width: 105px;
+}
+
+.reviews-count {
+    margin-top: 10px;
+}
+
+.review-logos {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 14px;
+    align-items: flex-start;
+    gap: 14px;
+    overflow: hidden;
+}
+
+.review-logo {
+    aspect-ratio: 0.59;
+    object-fit: contain;
+    object-position: center;
+    width: 19px;
+    flex-shrink: 0;
+}
+
+.review-logo-wide {
+    aspect-ratio: 1.85;
+    object-fit: contain;
+    object-position: center;
+    width: 59px;
+    flex-shrink: 0;
+}
