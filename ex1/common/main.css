@@ -332,3 +332,95 @@
 }
 
 /* Section 6 */
+.miro-container {
+    position: relative;
+    width: 1440px;
+    height: 1400px;
+    overflow: hidden;
+    background-color: #131126;
+}
+
+.miro-hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 215px;
+    position: relative;
+    z-index: 1;
+}
+
+.miro-title {
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+    letter-spacing: -1px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.miro-demo-link {
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: 1px;
+    width: 290px;
+    border-bottom: 0.1em solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.miro-iso-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.iso-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.iso-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.iso-circle-large {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.iso-circle-header {
+    color: #fff;
+    font: "Inter";
+    font-weight: 900;
+    font-size: 69px;
+    margin-bottom: 20px;
+}
+.iso-text {
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.miro-background-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Section 7 */
