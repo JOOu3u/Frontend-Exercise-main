@@ -275,3 +275,60 @@
 .feature-link:hover {
     text-decoration: underline;
 }
+
+/* Section 5 */
+.integration-section {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.integration-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 115px;
+}
+
+.integration-image-wrapper {
+    margin: 0;
+}
+
+.integration-image {
+    width: 550px;
+    height: 544px;
+    object-fit: contain;
+}
+
+.integration-content {
+    padding-top: 100px;
+    width: 465px;
+}
+
+.integration-heading {
+    color: #050038;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin: 0 0 28px 0;
+}
+
+.integration-description {
+    color: rgba(5, 0, 56, 0.6);
+    line-height: 24px;
+    margin: 0 0 46px 0;
+}
+
+.learn-more-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.learn-more-text {
+    color: #050038;
+    line-height: 24px;
+}
+
+/* Section 6 */
