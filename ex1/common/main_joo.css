@@ -1,0 +1,64 @@
+/*main_visual*/
+.content-column {
+    display: flex;
+        flex-direction: column;
+        height: 540px;
+        flex-shrink: 0;
+        width: 440px;
+}
+.main_visaul_txt {
+    color: #050038;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1px;
+}
+
+.main_visaul_txt p{
+    color: rgba(5, 0, 56, 0.72);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.main_visaul_txt2 {
+    color: #050038;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1px;
+}
+
+.main_visaul_txt2 p{
+    color: rgba(5, 0, 56, 0.72);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.email-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email-section .signup-form {
+    display: flex;
+    width: 440px;
+    height: 48px;
+}
+
+.email-section .email-input {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(155, 153, 175, 1);
+    width: 100%;
+    padding: 13px 25px;
+    color: rgba(95, 92, 128, 1);
+}
+
+.email-section .email-input::placeholder {
+    color: rgba(95, 92, 128, 1);
+}

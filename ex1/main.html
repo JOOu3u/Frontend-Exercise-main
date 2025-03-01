@@ -16,14 +16,16 @@
 
         <link rel="stylesheet" href="../ex1/common/common.css" />
         <link rel="stylesheet" href="../ex1/common/fonts.css" />
+        <link rel="stylesheet" href="../ex1/common/fonts_joo.css" />
         <link rel="stylesheet" href="../ex1/common/ui.css" />
         <link rel="stylesheet" href="../ex1/common/layout.css" />
         <link rel="stylesheet" href="../ex1/common/main.css" />
+        <link rel="stylesheet" href="../ex1/common/main_joo.css" />
         <link rel="stylesheet" href="../ex1/common/layout.css" />
     </head>
     <body>
         <!-- Header -->
-        <header class="main-header">
+        <header class="main-header" style="display: flex; justify-content: center;">
             <div class="header-container">
                 <div class="header-left int-reg-16">
                     <img src="assets/Header/logo.svg" alt="Logo" class="logo" />
@@ -66,13 +68,13 @@
         <main class="main-container">
             <!-- Main Visual -->
             <section class="main-visual">
-                <article class="content-column">
-                    <h1 class="note-title int-bold-48">Take ideas from better to best</h1>
-
-                    <p class="hero-description noto-reg-18">
+                <div class="content-column">
+                    <div class="main_visaul_txt">Take ideas from better to best
+                    <p>
                         Miro is your team's visual platform to connect, collaborate, and create — together.
                     </p>
-
+                </div>
+                <div class="email-section">
                     <form class="signup-form">
                         <input
                             type="email"
@@ -83,7 +85,7 @@
                     </form>
                     <button class="signup-button noto-reg-20" aria-label="Sign up for free">Sign free</button>
                     <p class="collaboration-text noto-reg-14">Collaborate with your team within minutes</p>
-
+                </div>
                     <section class="reviews-section">
                         <div class="reviews-header">
                             <img src="/ex1/assets/VisualMain/stars.svg" alt="Rating stars" class="rating-stars" />
@@ -114,7 +116,7 @@
                             />
                         </div>
                     </section>
-                </article>
+                </div>
                 <div class="image-column">
                     <img src="/ex1/assets/VisualMain/mainImage.png" alt="Platform preview" class="hero-image" />
                 </div>
@@ -288,6 +290,10 @@
 
             <!-- Section 8 -->
             <section class="testimonials">
+                <div class="content-column">
+                    <div class="main_visaul_txt2">Take ideas from better to best
+                        <button class="btn-default basic">ddd</button>
+                </div>
                 <h1 class="testimonials-heading">Loved by the world's best teams</h1>
                 <div class="testimonials-grid">
                     <article class="testimonial-card">

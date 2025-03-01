@@ -1,0 +1,14 @@
+:root {
+    /* Font families */
+    --font-int: "Inter", sans-serif;
+    --font-noto: "Noto Sans", sans-serif;
+
+    /* Font weights */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+}
+
+.body {
+    font-family: "Noto Sans", sans-serif;
+}
