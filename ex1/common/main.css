@@ -424,3 +424,190 @@
 }
 
 /* Section 7 */
+.report-section {
+    margin-top: 100px;
+}
+
+/* Section 8 */
+.testimonials {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.testimonials-heading {
+    margin-top: 100px;
+    color: #050038;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 60px;
+}
+
+.testimonials-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.testimonial-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(5, 0, 56, 0.08);
+    padding: 36px;
+    width: 360px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    height: 62px;
+    margin-bottom: 34px;
+}
+
+.company-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.testimonial-quote {
+    color: rgba(5, 0, 56, 0.6);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 51px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.author-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    color: rgba(5, 0, 56, 0.6);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.author-role {
+    color: rgba(5, 0, 56, 0.6);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.stories-button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #242424;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    color: #050038;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/* Section 9 */
+.join-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    position: relative;
+    padding: 120px 80px;
+    align-items: center;
+    font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.join-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+        url("/ex1/assets/Section6/bg.png") lightgray center/cover no-repeat;
+}
+
+.join-wrapper {
+    position: relative;
+    display: flex;
+    width: 519px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+    align-self: stretch;
+    margin: 0;
+}
+
+.join-subtitle {
+    line-height: 24px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.join-contact-link {
+    color: inherit;
+    text-decoration: none;
+    z-index: 10;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.join-username-input {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(36, 36, 36, 1);
+    margin-top: 45px;
+    margin-left: 14px;
+    padding: 10px 30px;
+    font-family: Noto Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    color: rgba(5, 0, 56, 1);
+    white-space: nowrap;
+    text-align: center;
+    cursor: default;
+}
