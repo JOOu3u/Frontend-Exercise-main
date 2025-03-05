@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Exercise 1</title>
+        <title>Product - Miro</title>
 
+        <!-- Same stylesheet links as main.html -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -13,16 +14,14 @@
         />
 
         <link rel="stylesheet" href="styles.css" />
-
         <link rel="stylesheet" href="../ex1/common/common.css" />
         <link rel="stylesheet" href="../ex1/common/fonts.css" />
         <link rel="stylesheet" href="../ex1/common/ui.css" />
         <link rel="stylesheet" href="../ex1/common/layout.css" />
         <link rel="stylesheet" href="../ex1/common/main.css" />
-        <link rel="stylesheet" href="../ex1/common/layout.css" />
     </head>
     <body>
-        <!-- Header -->
+        <!-- Copy the header from main.html -->
         <header class="main-header">
             <div class="header-container">
                 <div class="header-left int-reg-16">
@@ -147,303 +146,68 @@
         </header>
 
         <main class="main-container">
-            <!-- Remote Controller -->
-            <div class="arrowbox">
-                <div class="arrow">↑</div>
-                <div class="arrow">↓</div>
-            </div>
-            <!-- Main Visual -->
-            <section class="main-visual">
-                <article class="content-column">
-                    <h1 class="note-title int-bold-48">Take ideas from better to best</h1>
-
-                    <p class="hero-description noto-reg-18">
-                        Miro is your team's visual platform to connect, collaborate, and create — together.
+            <!-- Product Page Content -->
+            <div class="product-container">
+                <header class="product-header">
+                    <h1 class="product-title">Front-End Board list.ver</h1>
+                    <p class="product-subtitle">
+                        In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and
+                        co-create in one space no matter where you are.
                     </p>
+                    <nav class="product-nav-buttons">
+                        <button class="product-nav-btn">Notice</button>
+                        <button class="product-nav-btn">Question</button>
+                        <button class="product-nav-btn">Event News</button>
+                        <button class="product-nav-btn">Diary</button>
+                        <button class="product-nav-btn">Gallery</button>
+                        <button class="product-nav-btn">to do list</button>
+                    </nav>
+                </header>
 
-                    <form class="signup-form">
-                        <input
-                            type="email"
-                            class="email-input int-reg-18"
-                            placeholder="Enter your work email"
-                            aria-label="Work email"
-                        />
-                    </form>
-                    <button class="signup-button noto-reg-20" aria-label="Sign up for free">Sign free</button>
-                    <p class="collaboration-text noto-reg-14">Collaborate with your team within minutes</p>
+                <hr class="product-divider" />
 
-                    <section class="reviews-section">
-                        <div class="reviews-header">
-                            <img src="/ex1/assets/VisualMain/stars.svg" alt="Rating stars" class="rating-stars" />
-                            <p class="reviews-count noto-reg-11">Based on 5149+ reviews:</p>
-                        </div>
-
-                        <div class="review-logos">
-                            <img
-                                src="/ex1/assets/VisualMain/Frame.svg"
-                                alt="Review platform logo"
-                                class="review-logo"
-                            />
-                            <img
-                                src="assets/VisualMain/Frame2.svg"
-                                alt="Review platform logo"
-                                class="review-logo-wide"
-                            />
-                            <img
-                                src="assets/VisualMain/Frame3.svg"
-                                alt="Review platform logo"
-                                class="review-logo-wide"
-                            />
-                            <img src="assets/VisualMain/Frame.svg" alt="Review platform logo" class="review-logo" />
-                            <img
-                                src="assets/VisualMain/Frame4.svg"
-                                alt="Review platform logo"
-                                class="review-logo-wide"
-                            />
+                <div class="product-gallery-grid">
+                    <section class="product-gallery-row">
+                        <figure class="product-gallery-item large">
+                            <img src="/ex1/assets/Product/1.png" class="product-gallery-img" />
+                        </figure>
+                        <div class="product-gallery-column">
+                            <figure class="product-gallery-item small">
+                                <img src="/ex1/assets/Product/2.png" class="product-gallery-img" />
+                            </figure>
+                            <figure class="product-gallery-item small">
+                                <img src="/ex1/assets/Product/3.png" class="product-gallery-img" />
+                            </figure>
                         </div>
                     </section>
-                </article>
-                <div class="image-column">
-                    <img src="/ex1/assets/VisualMain/mainImage.png" alt="Platform preview" class="hero-image" />
-                </div>
-            </section>
 
-            <!-- Section 2 -->
-            <section class="trusted-section">
-                <div class="trusted-container">
-                    <div class="logo-placement">
-                        <h2 class="int-reg-18">Trusted by 45M+ users</h2>
-                        <div class="trusted-heading">
-                            <img
-                                src="/ex1/assets/Section2/Walmart_Index_Only.svg.svg"
-                                alt="Partner logos"
-                                class="partner-logos"
-                            />
-                            <img src="/ex1/assets/Section2/cisco.svg.svg" alt="Partner logos" class="partner-logos" />
-                            <img
-                                src="/ex1/assets/Section2/Volvo_Index_Only.svg.svg"
-                                alt="Partner logos"
-                                class="partner-logos"
-                            />
-                            <img
-                                src="/ex1/assets/Section2/deloitte.svg.svg"
-                                alt="Partner logos"
-                                class="partner-logos"
-                            /><img src="/ex1/assets/Section2/okta.svg.svg" alt="Partner logos" class="partner-logos" />
+                    <section class="product-gallery-row three-column">
+                        <figure class="product-gallery-item small">
+                            <img src="/ex1/assets/Product/4.png" class="product-gallery-img" />
+                        </figure>
+                        <figure class="product-gallery-item small">
+                            <img src="/ex1/assets/Product/5.png" class="product-product-gallery-img" />
+                        </figure>
+                        <figure class="product-gallery-item small">
+                            <img src="/ex1/assets/Product/6.png" class="product-gallery-img" />
+                        </figure>
+                    </section>
+
+                    <section class="product-gallery-row">
+                        <div class="product-gallery-column">
+                            <figure class="product-gallery-item small">
+                                <img src="/ex1/assets/Product/7.png" class="product-gallery-img" />
+                            </figure>
                         </div>
-                    </div>
+                        <figure class="product-gallery-item large">
+                            <img src="/ex1/assets/Product/9.png" class="product-gallery-img" />
+                        </figure>
+                    </section>
                 </div>
-            </section>
-
-            <!-- Section 3 -->
-            <section class="note-section">
-                <div class="note-container">
-                    <article class="note-wrapper">
-                        <h1 class="note-heading int-reg-48">I want to drink grape juice</h1>
-                        <p class="note-description int-reg-18">
-                            In the office, remote, or a mix of the two, with Miro, your team can connect,
-                            collaborate,and co-create in one space no matter where you are.
-                        </p>
-                        <a href="#" class="note-cta-link">
-                            <span class="note-cta-text int-bold-18">Learn more</span>
-                            <span class="note-cta-arrow"><button class="purple-arrow">→</button></span>
-                        </a>
-                    </article>
-                    <img src="assets/Section3/hybridwork.png.png" class="note-image" alt="Grape juice illustration" />
-                </div>
-            </section>
-
-            <!-- Section 4 -->
-            <section class="collaborate-section">
-                <h2 class="collaborate-heading int-bold-48">
-                    <br />
-                    Collaborate without
-                    <br />
-                    constraints
-                </h2>
-                <div class="features-container">
-                    <article class="feature-card">
-                        <h3 class="feature-title">very very</h3>
-                        <p class="feature-description">
-                            Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates.
-                            Signing up with your work email lets you bring in your team faster. See our
-                            <br />
-                            <a href="#" class="feature-link">pricing plans</a>
-                            for more features.
-                        </p>
-                    </article>
-                    <article class="feature-card">
-                        <h3 class="feature-title int-bold-24">strawberry</h3>
-                        <p class="feature-description noto-reg-18">
-                            Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and
-                            Jira, so your workflow is seamless. View the full list in our
-                            <a href="#" class="feature-link">Marketplace</a>
-                            .
-                        </p>
-                    </article>
-                    <article class="feature-card">
-                        <h3 class="feature-title">coconut</h3>
-                        <p class="feature-description">
-                            We treat your data like you would — with the utmost care. We follow industry-leading
-                            security standards and give you tools to protect intellectual property. Learn more
-                            <br />
-                            at our
-                            <a href="#" class="feature-link">Trust Center</a>
-                            .
-                        </p>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Section 5 -->
-            <section class="integration-section">
-                <div class="integration-container">
-                    <figure class="integration-image-wrapper">
-                        <img src="/ex1/assets/Section5/main.png" class="integration-image" />
-                    </figure>
-                    <article class="integration-content">
-                        <h2 class="integration-heading int-bold-48">Connect your tools, close your tabs</h2>
-                        <p class="integration-description int-reg-18">
-                            Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom,
-                            Miro has 100+ integrations with tools you already use and love.
-                        </p>
-                        <a href="#" class="learn-more-link">
-                            <span class="learn-more-text int-bold-18">Learn more</span>
-                            <span class="note-cta-arrow" aria-hidden="true"
-                                ><img src="/ex1/assets/Section3/span.svg"
-                            /></span>
-                        </a>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Section 6 -->
-            <section class="miro-container">
-                <section class="miro-hero-section">
-                    <h1 class="miro-title int-bold-48">Why companies large and small trust Miro</h1>
-                    <a href="#" class="miro-demo-link int-reg-18">Contact Sales to request a demo</a>
-                </section>
-
-                <section class="miro-iso-section">
-                    <article class="iso-item">
-                        <div class="iso-circle"></div>
-                        <p class="iso-circle-header">ISO</p>
-                        <p class="iso-text int-reg-16">
-                            <span>ISO-27001 enterprise-grade security compliant</span>
-                            <br />
-                            <span
-                                >ISO-27001 enterprise-grade security compliantISO-27001 enterprise-grade security
-                                compliant</span
-                            >
-                        </p>
-                    </article>
-
-                    <article class="iso-item">
-                        <div class="iso-circle-large"></div>
-                        <p class="iso-circle-header">ISO</p>
-                        <p class="iso-text int-reg-16">
-                            ISO-27001 enterprise-grade security compliantISO-27001 enterprise-grade security
-                            compliantISO-27001 enterprise-grade security compliantISO-27001 enterprise-grade security
-                            compliantISO-27001 enterprise-grade security compliant
-                        </p>
-                    </article>
-
-                    <article class="iso-item">
-                        <div class="iso-circle"></div>
-                        <p class="iso-circle-header">ISO</p>
-                        <p class="iso-text int-reg-16">
-                            <span>ISO-27001 enterprise-grade security compliant</span>
-                            <br />
-                            <span
-                                >ISO-27001 enterprise-grade security compliantISO-27001 enterprise-grade security
-                                compliant</span
-                            >
-                        </p>
-                    </article>
-                </section>
-
-                <img src="/ex1/assets/Section6/bg.png" class="miro-background-gradient" />
-            </section>
-
-            <!-- Section 7 -->
-            <section class="report-section">
-                <img src="/ex1/assets/Section7/bg.png" />
-            </section>
-
-            <!-- Section 8 -->
-            <section class="testimonials">
-                <h1 class="testimonials-heading">Loved by the world's best teams</h1>
-                <div class="testimonials-grid">
-                    <article class="testimonial-card">
-                        <div class="logo-wrapper">
-                            <img src="/ex1/assets/Section8/vmware.png" alt="" />
-                        </div>
-                        <p class="testimonial-quote">
-                            "When the pandemic hit, those of us who thrive on in-person collaboration were worried that
-                            our creativity and productivity would suffer. Miro was the perfect tool to help us with
-                            collaboration, whiteboarding, and retrospectives while remote."
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="/ex1/assets/Section8/p1.png" alt="" />
-                            <div class="author-details">
-                                <p class="author-name">Roxanne Mustafa</p>
-                                <p class="author-role">Design Team Lead at VMware</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="testimonial-card">
-                        <div class="logo-wrapper">
-                            <img src="/ex1/assets/Section8/DocuSign.png" alt="" />
-                        </div>
-                        <p class="testimonial-quote">
-                            "Miro helps solve one of the major gaps in product design: how to manage tasks across
-                            product designers whose projects are in different tools."<br /><br /><br /><br />
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="/ex1/assets/Section8/p2.png" alt="" />
-                            <div class="author-details">
-                                <p class="author-name">Jane Ashley</p>
-                                <p class="author-role">Head of Design at DocuSign</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="testimonial-card">
-                        <div class="logo-wrapper">
-                            <img src="/ex1/assets/Section8/frog.png" alt="" />
-                        </div>
-                        <p class="testimonial-quote">
-                            "Miro helps solve one of the major gaps in product design: how to manage tasks across
-                            product designers whose projects are in different tools."<br /><br /><br /><br />
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="/ex1/assets/Section8/p3.png" alt="" />
-                            <div class="author-details">
-                                <p class="author-name">Jane Ashley</p>
-                                <p class="author-role">Head of Design at DocuSign</p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="button-wrapper">
-                    <button class="point-btn">See all Customer Stories</button>
-                </div>
-            </section>
-
-            <!-- Section 9 -->
-            <section class="join-section">
-                <img src="/ex1/assets/Section9/bg.jpeg" class="join-background" alt="Background image" />
-                <div class="join-wrapper">
-                    <h1 class="join-title">Join 45M+ users today</h1>
-                    <p class="join-subtitle">Start for free — upgrade anytime.</p>
-                    <a href="#" class="join-contact-link"> Joining as an organization? Contact Sales </a>
-                    <button class="point-btn">@joou3u</button>
-                </div>
-            </section>
+            </div>
+            <div class="">arrow</div>
         </main>
 
-        <!-- Footer -->
         <footer class="footer-container">
             <nav class="nav-grid">
                 <section class="nav-column">

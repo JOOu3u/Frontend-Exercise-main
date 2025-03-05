@@ -621,3 +621,120 @@
     text-align: center;
     cursor: default;
 }
+
+/* product page */
+.product-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.product-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.product-title {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #050038;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 56px;
+    margin: 0;
+}
+
+.product-subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: rgba(5, 0, 56, 0.6);
+    text-align: center;
+    max-width: 1000px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.product-nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.product-nav-btn {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #242424;
+    color: #050038;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.product-nav-btn:hover {
+    background-color: #f0f0f0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #242424;
+    color: #fff;
+    cursor: pointer;
+    background-color: #410097;
+}
+
+.product-divider {
+    width: 100%;
+    height: 1px;
+    margin: 50px 0;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.product-gallery-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.product-gallery-row {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.product-gallery-row.three-column {
+    justify-content: flex-start;
+}
+
+.product-gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-gallery-item {
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.product-gallery-item.large {
+    flex: 2;
+}
+
+.product-gallery-item.small {
+    flex: 1;
+}
+
+.product-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
