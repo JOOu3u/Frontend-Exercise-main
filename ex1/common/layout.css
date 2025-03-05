@@ -134,18 +134,6 @@
     margin: auto 0;
 }
 
-.header-signup-button {
-    border: none;
-    border-radius: 8px;
-    background-color: #ad8bda;
-    margin: auto 0;
-    padding: 10px 30px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1;
-    cursor: pointer;
-}
-
 /* Dropdown Dialog */
 .nav-item.has-dropdown {
     position: relative;
