@@ -65,8 +65,26 @@
 
 .arrowbox {
     display: flex;
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
     flex-direction: column;
+    align-items: end;
+    z-index: 999;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px;
+    border: solid #050038;
+    border-width: 3px;
+    display: flex;
+    border-radius: 50%;
+    cursor: pointer;
     align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    justify-content: center;
 }
 
 .note-cta-arrow {

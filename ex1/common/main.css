@@ -123,12 +123,8 @@
 
 /* Section 2 */
 .trusted-section {
-    display: flex;
-    padding: 60px 0px 0px 60px;
-    align-items: start;
-    text-align: center;
+    padding: 60px 60px 0px 60px;
     line-height: 1;
-    justify-content: start;
 }
 
 .trusted-container {
@@ -146,13 +142,11 @@
 }
 .trusted-heading {
     display: flex;
-    flex-direction: row;
-    margin: 0;
+    justify-content: center;
 }
 
 .partner-logos {
     width: 100%;
-    z-index: 10;
     margin: 50px;
 }
 
