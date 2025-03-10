@@ -624,17 +624,19 @@
 
 /* product page */
 .product-container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 50px 0;
+    display: flex;
+    width: 1300px;
+    padding: 100px 0px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .product-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    margin-bottom: 50px;
+    gap: 20px;
 }
 
 .product-title {
@@ -655,35 +657,7 @@
     text-align: center;
     max-width: 1000px;
     line-height: 24px;
-    margin: 0;
-}
-
-.product-nav-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.product-nav-btn {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 18px;
-    padding: 10px 30px;
-    border-radius: 8px;
-    border: 1px solid #242424;
-    color: #050038;
-    cursor: pointer;
-    background-color: #fff;
-}
-
-.product-nav-btn:hover {
-    background-color: #f0f0f0;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 18px;
-    padding: 10px 30px;
-    border-radius: 8px;
-    border: 1px solid #242424;
-    color: #fff;
-    cursor: pointer;
-    background-color: #410097;
+    margin: 50px;
 }
 
 .product-divider {
@@ -699,6 +673,7 @@
     flex-direction: column;
     gap: 30px;
     padding: 0 50px;
+    margin-bottom: 100px;
 }
 
 .product-gallery-row {
@@ -722,8 +697,67 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
+.product-gallery-img {
+    display: block;
+    width: 100%;
+    transition: filter 0.3s ease;
+}
+
+.product-gallery-item:hover .product-gallery-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    filter: blur(15px);
+}
+
+.product-gallery-description {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* Show overlay text on hover */
+.product-gallery-item:hover .product-gallery-description {
+    opacity: 1;
+}
+.product-gallery-description h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+    margin-bottom: 50px;
+}
+.product-gallery-description p {
+    color: #eaeaea;
+    text-align: center;
+    font-feature-settings: "case" on;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.408px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 .product-gallery-item.large {
     flex: 2;
 }
@@ -737,4 +771,175 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* second page */
+.solution-container {
+    margin: 117px 70px 374px 70px;
+}
+
+/* 1. Grid of Cards */
+.board-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.solution-list-card {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+}
+
+.solution-card {
+    display: flex;
+    width: 380px;
+    height: 336px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.solution-card img {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+}
+.user-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.ava-place {
+    width: 100%;
+}
+
+.solution-card .card-info {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px;
+    gap: 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    transition: bottom 0.3s ease;
+}
+
+.solution-card .card-info .user-avatar {
+    width: 40px;
+    height: 40px;
+}
+.solution-card .card-info h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #fff;
+}
+.solution-card .card-info p {
+    font-size: 14px;
+    color: #cecece;
+    line-height: 1.4;
+}
+/* Hover effects */
+.solution-card:hover img {
+    transform: scale(1.1); /* Zoom effect on image */
+}
+.solution-card:hover .card-info {
+    bottom: 0;
+}
+.card-image {
+    width: 476px;
+    height: 208px;
+    flex-shrink: 0;
+}
+
+.card-info {
+    padding: 16px;
+}
+
+/* 2. Title / Subtitle */
+.board-heading {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.board-title {
+    color: #050038;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.board-subtitle {
+    color: rgba(5, 0, 56, 0.6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+/* 3. Navigation & Pagination */
+.board-footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Category Tabs */
+.board-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.board-categories div button {
+    padding: 8px 16px;
+    border: none;
+    background: #eee;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.pagination button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.board-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
 }
