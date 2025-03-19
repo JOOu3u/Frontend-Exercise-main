@@ -1,0 +1,298 @@
+/* Main Section 1 */
+.dashboard-page {
+    width: 100%;
+    margin: 0px;
+}
+
+/* Hero Section */
+.hero-content {
+    width: 100%;
+    height: 560px;
+    margin-top: 30px;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #d9d9d9;
+    padding: 120px 90px;
+    box-sizing: border-box;
+    justify-content: end;
+}
+
+.hero-box h1 {
+    color: #727272;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.hero-box p {
+    color: #727272;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 494px;
+    flex-shrink: 0;
+    margin: 0px;
+}
+
+.title-underline {
+    height: 1px;
+    border-bottom: black;
+    background-color: #d9d9d9;
+    width: 161.5px;
+    margin: 33px 0px;
+}
+
+/* Topics Section */
+.topic-page {
+    margin-top: 75px;
+}
+.topic-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topics-cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Each topic card */
+.topic-card {
+    height: 100%;
+    width: 204px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 30px 30px 30px;
+
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.topic-icon {
+    width: 79px;
+    height: 79px;
+    flex-shrink: 0;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.topic-card h3 {
+    color: #727272;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.topic-name {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.arrow-guide {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.topics-carousel-nav button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d9d2cd;
+    cursor: pointer;
+}
+
+/* Main Section 2 */
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.right-column {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.main-article,
+.trending-section,
+.news-list,
+.profile-card,
+.newsletter,
+.top-rated,
+.categories-list {
+    background: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-image,
+.card-image,
+.profile-image {
+    width: 100%;
+    height: 355px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.article-title,
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.author-date {
+    font-size: 14px;
+    color: #999;
+}
+
+.read-more {
+    color: #4e4e4e;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter form input[type="email"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.top-rated-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-rated-list li {
+    margin-bottom: 8px;
+}
+
+.top-rated-list li a {
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+.categories-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categories-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.cat-count {
+    background: #ddd;
+    border-radius: 8px;
+    padding: 0 6px;
+}
+
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the pagination horizontally */
+    gap: 10px; /* Space between arrows and numbers */
+    padding: 10px;
+    background-color: #f9f3f1; /* Example background color */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Left/Right Arrow Buttons */
+.page-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa; /* Lighter gray for arrows */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+}
+
+.page-arrow:hover {
+    color: #666; /* Darken on hover */
+}
+
+/* Pagination List */
+.pagination-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-number {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #bcbcbc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Active Page */
+.page-number.active {
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+/* Hover state for page numbers */
+.page-number:hover {
+    background-color: rgba(188, 188, 188, 0.2);
+}

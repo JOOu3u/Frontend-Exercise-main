@@ -1,0 +1,12 @@
+:root {
+    --font-poppins: "Poppins", sans-serif;
+}
+
+.title-text {
+    color: #727272;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

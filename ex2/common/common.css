@@ -1,0 +1,30 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+.header-container {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.main-container {
+    width: 1280px;
+    flex: 1;
+}
+
+.footer-container {
+    width: 1280px;
+}
